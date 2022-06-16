@@ -1,0 +1,13 @@
+this is the web design of a home automation system done using an esp8266 nodemcu and an atmega328p microcontrollers with features listed below...
+1, control of home electrical devices
+2, display of house health
+	temperature
+	humidity
+	air quality(co2 level)
+3, measure the power and water consumption in the house and display the result on the web
+4, security at the door implemented using keypad
+
+this web app is done with the help of google's firebase server to...
+	authenticate users to sign up on the web(firebase authentication)
+	store the data from the system to display on the web(firebase realtime database)
+	host the web app(firebase hosting)
